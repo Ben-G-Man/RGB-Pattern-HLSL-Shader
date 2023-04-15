@@ -4,7 +4,10 @@ The pattern will be repeated 'pixel-for-pixel' across the image, and the R, G, a
 
 E.g. If the corrosponding pixel position in the input pattern is **0, 255, 127**, the red channel will become **(0/255) × origionalRed**, the green channel will become **(255/255) × origionalGreen**, and the blue channel will become **(127/255) × origionalBlue**
 
+Example using the shader to create a repeating brick wall effect:
 ![Example Image](https://github.com/Ben-G-Man/RGB-Pattern-HLSL-Shader/blob/main/ExampleImages/ExampleImage1.png?raw=true)
+
+Example using the shader to create a repeating LED screen effect:
 ![Example Image](https://github.com/Ben-G-Man/RGB-Pattern-HLSL-Shader/blob/main/ExampleImages/ExampleImage2.png?raw=true)
 
 **Usage**                                                                                                               
