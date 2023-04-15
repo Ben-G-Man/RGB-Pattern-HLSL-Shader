@@ -1,0 +1,21 @@
+<effect>
+<name>RGB Pattern Effect</name>
+<description>Applies a repeated RGB filter pattern across an image based on an input image.</description>
+<company>Net Negative</company>
+<parameter>
+		<name>Pattern Size</name>
+		<code>pSize</code>
+		<type>int</type>
+		<property>EDIT</property>
+		<value>3</value>
+		<value></value>
+</parameter>
+<parameter>
+		<name>RBG Pattern</name>
+		<code>pattern</code>
+		<type>IMAGE</type>
+		<property>IMAGE</property>
+		<value></value>
+</parameter>
+</effect>
+
